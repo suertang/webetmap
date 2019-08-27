@@ -1,0 +1,150 @@
+
+        body{margin:0 0}
+        .dashboard_target_box {
+            width:600px;
+            height:105px;
+            border:3px dashed #E5E5E5;
+            text-align:center;
+            top:0;
+            left:0;
+            cursor:pointer;
+            margin:30px auto;
+           
+        }
+        .dashboard_target_box.over {
+            border:3px dashed #000;
+            background:#ffa
+        }
+        .dashboard_target_messages_container {
+            display:inline-block;
+            margin:12px 0 0;
+            position:relative;
+            text-align:center;
+            height:44px;
+            overflow:hidden;
+            z-index:2000
+        }
+        .dashboard_target_box_message {
+            position:relative;
+            margin:4px auto;
+            font:15px/18px helvetica, arial, sans-serif;
+            font-size:15px;
+            color:#999;
+            font-weight:normal;
+            width:150px;
+            line-height:20px
+        }
+        .dashboard_target_box.over #dtb-msg1 {
+            color:#000;
+            font-weight:bold
+        }
+        .dashboard_target_box.over #dtb-msg3 {
+            color:#ffa;
+            border-color:#ffa
+        }
+        #dtb-msg2 {
+            color:orange
+        }
+        #dtb-msg3 {
+            display:block;
+            border-top:1px #EEE dotted;
+            padding:8px 24px
+        }
+        #pic{
+            margin:2px auto;
+            text-align:center;
+            
+            width: 800px;
+            height: 400px;
+        }
+        .xplot{
+            margin:2px auto;
+            text-align:center;
+            padding-left:50px;
+            width: 600px;
+            height: 400px;
+            float:left
+        }
+        .xleg{
+            background-color: #fff;
+            padding: 2px;
+            margin-bottom: 8px;
+            display: inline-block;
+            margin: 0 auto;
+            clear:right;
+            min-width:100px;
+            height:400px;
+            font-size:12px;
+        }
+        .chart_title{
+            text-align:center;
+            width:auto;
+        }
+        label {
+        cursor: pointer;
+        /* Style as you please, it will become the visible UI component. */
+        }
+
+        #uploadbox {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        }
+        #info{
+            display:none;
+        }
+        .qtable table{
+            border-collapse:collapse;
+            width:800px;
+            margin:10px auto;
+        }
+        .qtable table,td,th{
+            border:1px solid;
+            font-family:Bosch Office Sans;
+        }
+        .qtable{
+            width:100%;
+            text-align:center;}
+        .inlineedit{
+            margin:0px;
+            padding:0px;
+            with:100%;
+            height:100%;
+            border:0px;
+            display:table-cell;
+            font-family:Bosch Office Sans;
+        }
+        @media print {
+            div.dashboard_target_box {display: none;}
+            div#qlist{display:none}
+            .btnDown{display:none}
+        }
+        h3{text-align:left;}
+
+        #pic>div{padding-bottom:80px}
+        .dataframe td,th{
+            font-family:arial;
+            font-size:12px;
+            border:1px solid;
+            cell-padding:0px;
+            cell-spacing:0px;
+        }
+        .summary{text-align:left;}
+        .dataframe {border-collapse:collapse;}
+        #logo{
+            background: url(supergfx.png);
+            background-size: 100%;
+            height: 16px;
+            width: 100%;
+            background-position: 0 -40px;
+        }
+        #sign td{
+            width:75;
+            font-size:12px;
+        }
+        #sign table,th,td{
+            border:1px solid
+        }
+        #sign table{
+            border-collapse:collapse;
+        }

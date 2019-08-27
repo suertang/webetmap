@@ -1,0 +1,361 @@
+
+        body{margin:0 0;
+        font-family:Bosch Office Sans}
+        
+        #dtb-msg2 {
+            color:orange
+        }
+        #dtb-msg3 {
+            display:block;
+            border-top:1px #EEE dotted;
+            padding:8px 24px
+        }
+        #pic{
+            box-sizing: border-box;
+            margin:2px auto;
+            text-align:center;
+            
+            width: 800px;
+            height: 400px;
+        }
+        .xplot{
+            box-sizing: border-box;
+            
+            text-align:center;
+            padding-left:50px;/*for y axis label*/
+            width: 650px;
+            margin-left:50px;
+            height: 388px;
+            float:left
+        }
+        .xleg{
+            box-sizing: border-box;
+            background-color: #fff;
+            padding: 2px;
+            margin-bottom: 8px;
+            display: inline-block;
+            margin: 0 auto;
+            clear:right;
+            max-width:100px;
+            height:400px;
+            font-size:12px;
+        }
+        .xleg table td{border-width:0px}
+        .chart_title{
+            width:100%;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:inherit;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:center;
+            /*background:#EEE;*/
+
+        }
+        .legend_title{text-align:left;
+            font-weight:bold;
+            font-family: bosch office sans;
+            font-size:14px;
+        }
+        label {
+        cursor: pointer;
+        /* Style as you please, it will become the visible UI component. */
+        }
+
+        #uploadbox {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        }
+        #info{
+            display:none;
+        }
+        .qtable table{
+            border-collapse:collapse;
+            width:800px;
+            margin:10px auto;
+        }
+        .qtable table,td,th{
+            border:1px solid;
+            font-family:Bosch Office Sans;
+        }
+        .qtable{
+            width:100%;
+            text-align:center;}
+        .inlineedit{
+            margin:0px;
+            padding:0px;
+            width:100%;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:inherit;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:inherit;
+        }
+        .editing{ 
+            background:#EEE;
+        }
+
+        h3{text-align:left;margin-top:10px }
+
+        #pic>div{padding-bottom:28px}
+        .dataframe td,th{
+            font-family:'arial narrow';
+            font-size:12px;
+            border:1px solid;
+        }
+        .summary{text-align:left;}
+        .dataframe {border-collapse:collapse;
+        margin:0px auto}
+        #logo{
+            background: url(supergfx.png);
+            background-size: 100%;
+            height: 16px;
+            width: 100%;
+            background-position: 0 -40px;
+        }
+        #sign td{
+            width:75;
+            font-size:12px;
+        }
+        #sign>table,th,td{
+            border:1px solid
+        }
+        #sign>table{
+            border-collapse:collapse;
+        }
+        #sign{padding-top:140px;
+        }
+        .zoom{width:220px;
+            height:150px;
+            position: relative;
+            top:14px;
+            left:52px;
+            background: #fff;}
+        .txt{
+            
+            width:100%;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:inherit;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:inherit;
+            background:#EEE;
+        }
+        .inputname{
+            border:0px;
+            outline:0;
+            font-family:inherit;
+            font-size:inherit;
+            background:#EEE;
+            width:100px;
+        }
+        .form{
+            width:100%;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:inherit;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:inherit;
+            background:#EEE;
+        }
+        .modal{
+            border-collapse: collapse;
+            border-width:1px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:14px;
+            text-align:center;
+        }
+        #overlay {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+          }
+            
+          #modal {
+            position:absolute;
+            background:url(tint20.png) 0 0 repeat;
+            background:rgba(0,0,0,0.2);
+            border-radius:14px;
+            padding:8px;
+          }
+          
+          #content {
+            border-radius:8px;
+            background:#fff;
+            padding:20px;
+          }
+                
+          #close {
+            position:absolute;
+            background:url(close.png) 0 0 no-repeat;
+            width:24px;
+            height:27px;
+            display:block;
+            text-indent:-9999px;
+            top:-7px;
+            right:-7px;
+          }
+          .label{
+              display:none;
+          }
+          .lb{
+              display: block;
+              width:200px;
+              height:50px;
+              line-height:50px;
+              background: #ccc;
+              font-size: 20px;
+              cursor: pointer;
+              float:left;
+              box-sizing:border-box;
+          }
+          label.btn {
+            display: block;
+            float: left;
+            background: #CCC;
+            line-height: 50px;
+            margin-top: 3px;
+            width: 200px;
+            font-family: Bosch Office sans;
+            box-sizing:border-box;
+        }
+        #loadbox{display:none}
+
+          .caution{
+            color: #00529B;
+            background-color: #BDE5F8;
+        }
+        .form1{
+            width:100%;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:Tahoma, sans-serif;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:inherit;
+            background:#EEE;
+        }
+        .lbLoad{
+            font-size: 10px;
+            font-weight: normal;
+            color:#005298;
+            background-color: #BDE5F8;
+            cursor:pointer;
+        }
+        .input_legend{
+            width:60px;
+            height:100%;
+            border:0px;
+            display:block;
+            font-family:Tahoma, sans-serif;
+            font-size:inherit;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            outline:0;
+            text-align:inherit;
+            background:#EEE;
+        }
+        #allleg{
+            box-sizing: border-box;
+            list-style: none;
+            width:100px;
+            padding-left:0px;
+        }
+        .allleg{
+            margin-bottom:4px;
+        }
+        .allleg span{
+            display:block;
+            width:4px;
+            height:0px;
+            border:8px solid blue;
+            overflow:hidden;
+            float:left;
+
+        }
+        .legtitle{
+            text-align:left;
+            font-weight:bold;
+            margin-top:30px;
+        }
+        .ETMAP{
+            font-size:18px;
+            font-weight:bold;
+        }
+        .printhead{
+            width:800px;
+            margin:0 auto;
+            box-sizing: border-box;
+            
+            page-break-inside: avoid;
+            margin-bottom:30px;
+            height:80px;
+            
+        }
+        .printhead:first-child{
+            width:800px;
+            margin:0 auto;
+            box-sizing: border-box;
+            height:80px;
+            margin-bottom:30px;
+            height:0px;
+            
+            
+        }
+        .logo{
+            width:128px;
+            height:68px;
+            
+            float:right;
+        }
+        #intro{
+            width:800px;
+            text-align:center;
+            margin:0px auto;
+        }
+        @media print {
+            div.dashboard_target_box {display: none;}
+            div#qlist{display:none}
+            .btnDown{display:none}
+            label{display:none}
+            #start,.lb ,.lbLoad{display:none}
+            
+            .labelbox{display:none}
+        }
+        #info table td {
+            background: #CCC;
+            font-weight: bold;
+        }
+        .labelbox {
+            position:fixed;
+            width:200px;
+            box-sizing:border-box;
+        }
+        td>input{
+            box-sizing:border-box;
+            padding:0px;
+        }
